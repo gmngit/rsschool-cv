@@ -31,3 +31,10 @@ function barTriang(p1, p2, p3) {
   console.log( barTriang([4, 6], [12, 4], [10, 10]) );
 ```
 
+## Education
+
+1. HTML, CSS, JS course (Udemy)
+
+## Language
+
+English A2
