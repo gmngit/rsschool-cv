@@ -15,3 +15,19 @@ I'm interested in web development and try to be better day after day.
 
 * HTML, CSS, basic of JS
 * Git
+
+## Code Examples
+```
+function barTriang(p1, p2, p3) {
+    const center = [];
+          
+    center[0] = +((p1[0] + p2[0] + p3[0]) / 3).toFixed(4);   
+    center[1] = +((p1[1] + p2[1] + p3[1]) / 3).toFixed(4);
+    
+    return center;
+    
+  }
+
+  console.log( barTriang([4, 6], [12, 4], [10, 10]) );
+```
+
