@@ -1,0 +1,63 @@
+/*======================= Reset and base styles  */
+* {	padding: 0px;
+	margin: 0px; 
+    border: 0px; }
+*,
+*::before,
+*::after {box-sizing: border-box;}
+a, a:link, a:visited, a:hover {text-decoration: none; color: inherit;}
+aside, nav, footer, header, section, main {display: block;}
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit; }
+img {	
+	display: block;
+    max-width: 100%;
+	height: auto; }
+ul, ol {list-style-type: none;}	
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit; }
+button {cursor: pointer;}
+input::-ms-clear {display: none;}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0; }
+/*======================= Reset and base styles  */
+
+
+.background {
+    height: 1000px;
+    background-image: linear-gradient(to top, rgb(207, 217, 223) 0%, rgb(156, 162, 164) 100%);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px 40px;
+    border: solid 1px;
+}
+
+.title {
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Volkhov', serif;
+    font-size: 45px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+/* HEADER */
+
+.header h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin-top: 20px;
+}
