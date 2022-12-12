@@ -28,7 +28,7 @@ button::-moz-focus-inner {
 
 
 .background {
-    background-image: linear-gradient(to top, rgb(207, 217, 223) 0%, rgb(181, 188, 191) 100%);
+    background-image: linear-gradient(to top, rgb(233, 238, 242) 0%, rgb(181, 188, 191) 100%);
     padding: 70px 0;
 }
 
@@ -140,11 +140,17 @@ button::-moz-focus-inner {
     left: -10%;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
-    row-gap: 20px;
+.skills {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.skills > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .progress {
