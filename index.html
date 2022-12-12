@@ -5,8 +5,166 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Courgette&family=Volkhov&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="background">
+        <div class="container">
+            <header class="header">
+                <div>
+                    <h1 class="title">
+                        Marat <br> 
+                        Galimov</h1>
+                    <div class="marat">
+                        <img src="img/iam.jpg" alt="me">
+                    </div>
+                </div>
+                <h2>front-end developer</h2>
+            </header>
+
+            <main class="main-content">
+                <div class="main-content__left-column">
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="icon">
+                                <img src="icons/contacts.svg" alt="contacts">
+                            </div>
+                            <h2 class="subtitle">contacts</h2>
+                        </div>
+                        <div class="item__content">
+                            <ul class="text">
+                                <li>Phones:</li>
+                                <li>+91 93595 44766</li>
+                                <li>+7 912 985 7332</li>
+                            </ul>       
+                            
+                            <ul class="text">
+                                <li>Email:</li>
+                                <li>margeliochi@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="icon">
+                                <img src="icons/person.svg" alt="about-me">
+                            </div>
+                            <h2 class="subtitle">about me</h2>
+                        </div>
+                        <div class="item__content">
+                            <div>
+                                <p class="text">
+                                    I’m interested in web development and try to be better day after day.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="icon">
+                                <img src="icons/skills.svg" alt="skills">
+                            </div>
+                            <h2 class="subtitle">skills</h2>
+                        </div>
+                        <div class="skills">
+                            <ul class="text">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JS</li>
+                            </ul>
+                            <div>
+                                <div class="progress">
+                                    <div class="circle circle_gray"></div>
+                                    <div class="circle circle_gray"></div>
+                                    <div class="circle circle_gray"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="progress">
+                                    <div class="circle circle_gray"></div>
+                                    <div class="circle circle_gray"></div>
+                                    <div class="circle circle_gray"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="progress">
+                                    <div class="circle circle_gray"></div>
+                                    <div class="circle circle_gray"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-content__right-column">
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="icon">
+                                <img src="icons/code.svg" alt="code">
+                            </div>
+                            <h2 class="subtitle">code example</h2>
+                        </div>
+                        <pre>
+                            <code>
+                                function barTriang(p1, p2, p3) {
+                                    const center = [];
+                                          
+                                    center[0] = +((p1[0] + p2[0] + p3[0]) / 3).toFixed(4);   
+                                    center[1] = +((p1[1] + p2[1] + p3[1]) / 3).toFixed(4);
+                                    
+                                    return center;    
+                                  }
+                                
+                                  console.log( barTriang([4, 6], [12, 4], [10, 10]) );
+                            </code>
+                        </pre>
+                    </div>  
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="icon">
+                                <img src="icons/education.svg" alt="education">
+                            </div>
+                            <h2 class="subtitle">education</h2>
+                        </div>
+                        <div class="item__content">
+                            <p class="text">HTML, CSS, JS course on Udemy</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="icon">
+                                <img src="icons/language.svg" alt="language">
+                            </div>
+                            <h2 class="subtitle">language</h2>
+                        </div>
+                        <div class="item__content">
+                            <p class="text">English A2</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="footer">
+                <div class="github-icon">
+                    <a href="https://github.com/gmngit" target="_blank">
+                        <img src="icons/github-mark.svg" alt="GitHub">
+                    </a>
+                </div>
+                <span class="text">© 2022</span>
+                <div class="rsschool-icon">
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="icons/rs_school_js.svg" alt="Rsschool">
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
